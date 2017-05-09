@@ -17,10 +17,10 @@ namespace Entidades
             this._litros = litros;
         }
 
-        //public Gaseosa(Producto producto, float litros):this(producto.,precio,marca,litros)
-        //{
- 
-        //}
+        public Gaseosa(Producto producto, float litros) : this((int)producto, producto.Precio, producto.Marca, litros)
+        {
+
+        }
 
 
         public string MostrarGaseosa()
